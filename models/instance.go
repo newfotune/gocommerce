@@ -5,15 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jinzhu/gorm"
 	"gocommerce/conf"
+
+	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
 )
 
 const baseConfigKey = ""
 
 type Instance struct {
-	ID string `json:"id"`
+	ID int64 `json:"id"`
 	// Netlify UUID
 	UUID string `json:"uuid,omitempty"`
 

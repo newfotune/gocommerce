@@ -13,11 +13,11 @@ type Event struct {
 
 	IP string `json:"ip"`
 
-	User   *User  `json:"user,omitempty"`
-	UserID string `json:"user_id,omitempty"`
+	User   *User `json:"user,omitempty"`
+	UserID int64 `json:"user_id,omitempty"`
 
 	Order   *Order `json:"order,omitempty"`
-	OrderID string `json:"order_id,omitempty"`
+	OrderID int64  `json:"order_id,omitempty"`
 
 	Type    string `json:"type"`
 	Changes string `json:"data"`
@@ -43,7 +43,7 @@ const (
 )
 
 // LogEvent logs a new event
-func LogEvent(db *gorm.DB, ip, userID, orderID string, eventType EventType, changes []string) {
+func LogEvent(db *gorm.DB, ip string, userID, orderID int, eventType EventType, changes []string) {
 	event := &Event{
 		IP:      ip,
 		UserID:  userID,

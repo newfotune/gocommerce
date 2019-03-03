@@ -8,7 +8,7 @@ import (
 )
 
 type InvoiceNumber struct {
-	InstanceID string `gorm:"primary_key"`
+	InstanceID int64 `gorm:"primary_key"`
 	Number     int64
 }
 

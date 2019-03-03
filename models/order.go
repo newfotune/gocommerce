@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jinzhu/gorm"
 	"gocommerce/calculator"
+
+	"github.com/jinzhu/gorm"
 	"github.com/pborman/uuid"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
@@ -50,15 +51,15 @@ const (
 
 // Order model
 type Order struct {
-	InstanceID    string `json:"-" sql:"index"`
-	ID            string `json:"id"`
-	InvoiceNumber int64  `json:"invoice_number,omitempty"`
+	InstanceID    int64 `json:"-" sql:"index"`
+	ID            int64 `json:"id"`
+	InvoiceNumber int64 `json:"invoice_number,omitempty"`
 
 	IP string `json:"ip"`
 
-	User      *User  `json:"user,omitempty"`
-	UserID    string `json:"user_id,omitempty"`
-	SessionID string `json:"-"`
+	User      *User `json:"user,omitempty"`
+	UserID    int64 `json:"user_id,omitempty"`
+	SessionID int64 `json:"-"`
 
 	Email string `json:"email"`
 

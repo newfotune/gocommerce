@@ -23,8 +23,8 @@ type Transaction struct {
 
 	ProcessorID string `json:"processor_id"`
 
-	User   *User  `json:"-"`
-	UserID string `json:"user_id,omitempty"`
+	User   *User `json:"-"`
+	UserID int64 `json:"user_id,omitempty"`
 
 	Amount   uint64 `json:"amount"`
 	Currency string `json:"currency"`

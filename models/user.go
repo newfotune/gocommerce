@@ -10,13 +10,19 @@ import (
 	"github.com/pkg/errors"
 )
 
-// User model
-type User struct {
+type UserRequest struct {
 	InstanceID string `json:"-"`
-	ID         string `json:"id"`
 	Email      string `json:"email"`
 	Name       string `json:"name"`
+	FirstName  string `json:"first_name"`
+	LastName   string `json:"last_name"`
+}
 
+// User model
+type User struct {
+	UserRequest
+
+	ID        int64      `json:"id"`
 	CreatedAt time.Time  `json:"created_at"`
 	UpdatedAt time.Time  `json:"updated_at"`
 	DeletedAt *time.Time `json:"-"`
@@ -85,7 +91,7 @@ func (User) TableName() string {
 	return tableName("users")
 }
 
-func GetUser(db *gorm.DB, userID string) (*User, error) {
+func GetUser(db *gorm.DB, userID int64) (*User, error) {
 	user := &User{ID: userID}
 	if result := db.Find(user); result.Error != nil {
 		if result.RecordNotFound() {

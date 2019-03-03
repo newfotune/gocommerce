@@ -8,10 +8,10 @@ import (
 
 // Download represents a purchased asset download.
 type Download struct {
-	ID string `json:"id"`
+	ID int64 `json:"id"`
 
-	OrderID    string `json:"order_id"`
-	LineItemID int64  `json:"line_item_id"`
+	OrderID    int64 `json:"order_id"`
+	LineItemID int64 `json:"line_item_id"`
 
 	Title  string `json:"title"`
 	Sku    string `json:"sku"`

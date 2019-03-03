@@ -25,7 +25,7 @@ const signatureExpiration = 5 * time.Minute
 type Hook struct {
 	ID uint64
 
-	UserID string
+	UserID int64
 
 	Type string
 
