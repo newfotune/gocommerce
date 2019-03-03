@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/netlify/gocommerce/calculator"
-	gcontext "github.com/netlify/gocommerce/context"
+	"gocommerce/calculator"
+	gcontext "gocommerce/context"
 )
 
 func (a *API) ViewSettings(w http.ResponseWriter, r *http.Request) error {

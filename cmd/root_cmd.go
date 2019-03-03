@@ -4,7 +4,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/netlify/gocommerce/conf"
+	"gocommerce/conf"
 )
 
 var configFile = ""

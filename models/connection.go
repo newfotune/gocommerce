@@ -9,7 +9,7 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 
 	"github.com/jinzhu/gorm"
-	"github.com/netlify/gocommerce/conf"
+	"gocommerce/conf"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

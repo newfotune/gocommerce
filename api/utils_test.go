@@ -21,10 +21,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/netlify/gocommerce/calculator"
-	"github.com/netlify/gocommerce/claims"
-	"github.com/netlify/gocommerce/conf"
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/calculator"
+	"gocommerce/claims"
+	"gocommerce/conf"
+	"gocommerce/models"
 )
 
 const baseURL = "https://example.com"

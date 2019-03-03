@@ -3,7 +3,7 @@ package mailer
 import (
 	"testing"
 
-	"github.com/netlify/gocommerce/conf"
+	"gocommerce/conf"
 	"github.com/stretchr/testify/assert"
 )
 

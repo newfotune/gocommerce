@@ -6,7 +6,7 @@ import (
 	"time"
 
 	chimiddleware "github.com/go-chi/chi/middleware"
-	gcontext "github.com/netlify/gocommerce/context"
+	gcontext "gocommerce/context"
 	"github.com/sirupsen/logrus"
 )
 

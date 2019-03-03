@@ -7,13 +7,13 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 
-	"github.com/netlify/gocommerce/assetstores"
-	"github.com/netlify/gocommerce/claims"
-	"github.com/netlify/gocommerce/conf"
-	"github.com/netlify/gocommerce/coupons"
-	"github.com/netlify/gocommerce/mailer"
-	"github.com/netlify/gocommerce/models"
-	"github.com/netlify/gocommerce/payments"
+	"gocommerce/assetstores"
+	"gocommerce/claims"
+	"gocommerce/conf"
+	"gocommerce/coupons"
+	"gocommerce/mailer"
+	"gocommerce/models"
+	"gocommerce/payments"
 )
 
 type contextKey string

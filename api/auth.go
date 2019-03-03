@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/netlify/gocommerce/claims"
-	gcontext "github.com/netlify/gocommerce/context"
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/claims"
+	gcontext "gocommerce/context"
+	"gocommerce/models"
 	"github.com/sirupsen/logrus"
 )
 

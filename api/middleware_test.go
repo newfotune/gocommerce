@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/netlify/gocommerce/calculator"
-	"github.com/netlify/gocommerce/conf"
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/calculator"
+	"gocommerce/conf"
+	"gocommerce/models"
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

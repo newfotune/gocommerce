@@ -15,9 +15,9 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/netlify/gocommerce/calculator"
-	"github.com/netlify/gocommerce/claims"
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/calculator"
+	"gocommerce/claims"
+	"gocommerce/models"
 	"github.com/stretchr/testify/require"
 )
 

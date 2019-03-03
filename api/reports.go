@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	gcontext "github.com/netlify/gocommerce/context"
-	"github.com/netlify/gocommerce/models"
+	gcontext "gocommerce/context"
+	"gocommerce/models"
 )
 
 type salesRow struct {

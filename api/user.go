@@ -10,9 +10,9 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/pborman/uuid"
 
-	"github.com/netlify/gocommerce/claims"
-	gcontext "github.com/netlify/gocommerce/context"
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/claims"
+	gcontext "gocommerce/context"
+	"gocommerce/models"
 )
 
 func (a *API) withUser(w http.ResponseWriter, r *http.Request) (context.Context, error) {

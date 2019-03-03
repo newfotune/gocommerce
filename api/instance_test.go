@@ -9,8 +9,8 @@ import (
 
 	"github.com/pborman/uuid"
 
-	"github.com/netlify/gocommerce/conf"
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/conf"
+	"gocommerce/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

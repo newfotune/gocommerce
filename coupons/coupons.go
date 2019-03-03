@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/netlify/gocommerce/conf"
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/conf"
+	"gocommerce/models"
 	"github.com/pkg/errors"
 )
 

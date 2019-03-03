@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/netlify/gocommerce/assetstores"
+	"gocommerce/assetstores"
 )
 
 // Download represents a purchased asset download.

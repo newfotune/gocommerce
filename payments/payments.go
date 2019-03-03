@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/models"
 )
 
 const (

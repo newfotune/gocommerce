@@ -9,13 +9,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/models"
 	"github.com/pariz/gountries"
 
 	paypalsdk "github.com/netlify/PayPal-Go-SDK"
-	"github.com/netlify/gocommerce/conf"
-	gcontext "github.com/netlify/gocommerce/context"
-	"github.com/netlify/gocommerce/payments"
+	"gocommerce/conf"
+	gcontext "gocommerce/context"
+	"gocommerce/payments"
 	"github.com/pborman/uuid"
 	"github.com/pkg/errors"
 )

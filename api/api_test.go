@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/netlify/gocommerce/conf"
+	"gocommerce/conf"
 )
 
 func TestTraceWrapper(t *testing.T) {

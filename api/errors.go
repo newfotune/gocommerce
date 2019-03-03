@@ -7,7 +7,7 @@ import (
 	"os"
 	"runtime/debug"
 
-	gcontext "github.com/netlify/gocommerce/context"
+	gcontext "gocommerce/context"
 )
 
 func badRequestError(fmtString string, args ...interface{}) *HTTPError {

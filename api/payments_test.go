@@ -20,10 +20,10 @@ import (
 	"strings"
 
 	paypalsdk "github.com/netlify/PayPal-Go-SDK"
-	"github.com/netlify/gocommerce/conf"
-	gcontext "github.com/netlify/gocommerce/context"
-	"github.com/netlify/gocommerce/models"
-	"github.com/netlify/gocommerce/payments"
+	"gocommerce/conf"
+	gcontext "gocommerce/context"
+	"gocommerce/models"
+	"gocommerce/payments"
 	stripe "github.com/stripe/stripe-go"
 	"github.com/stripe/stripe-go/form"
 )

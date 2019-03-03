@@ -7,8 +7,8 @@ import (
 
 	"encoding/json"
 
-	"github.com/netlify/gocommerce/models"
-	"github.com/netlify/gocommerce/payments"
+	"gocommerce/models"
+	"gocommerce/payments"
 	"github.com/pkg/errors"
 	stripe "github.com/stripe/stripe-go"
 	"github.com/stripe/stripe-go/client"

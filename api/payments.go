@@ -17,13 +17,13 @@ import (
 
 	"mime"
 
-	"github.com/netlify/gocommerce/claims"
-	"github.com/netlify/gocommerce/conf"
-	gcontext "github.com/netlify/gocommerce/context"
-	"github.com/netlify/gocommerce/models"
-	"github.com/netlify/gocommerce/payments"
-	"github.com/netlify/gocommerce/payments/paypal"
-	"github.com/netlify/gocommerce/payments/stripe"
+	"gocommerce/claims"
+	"gocommerce/conf"
+	gcontext "gocommerce/context"
+	"gocommerce/models"
+	"gocommerce/payments"
+	"gocommerce/payments/paypal"
+	"gocommerce/payments/stripe"
 )
 
 // PaymentParams holds the parameters for creating a payment

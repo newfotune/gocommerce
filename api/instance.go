@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi"
-	"github.com/netlify/gocommerce/conf"
-	gcontext "github.com/netlify/gocommerce/context"
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/conf"
+	gcontext "gocommerce/context"
+	"gocommerce/models"
 	"github.com/pborman/uuid"
 )
 

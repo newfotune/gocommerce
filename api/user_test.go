@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/models"
 )
 
 func createUser(test *RouteTest, ID string, Email string, Name string) *models.User {

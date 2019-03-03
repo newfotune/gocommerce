@@ -6,9 +6,9 @@ import (
 	"context"
 
 	"github.com/go-chi/chi"
-	gcontext "github.com/netlify/gocommerce/context"
-	"github.com/netlify/gocommerce/coupons"
-	"github.com/netlify/gocommerce/models"
+	gcontext "gocommerce/context"
+	"gocommerce/coupons"
+	"gocommerce/models"
 )
 
 func (a *API) lookupCoupon(ctx context.Context, w http.ResponseWriter, code string) (*models.Coupon, error) {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/jinzhu/gorm"
-	gcontext "github.com/netlify/gocommerce/context"
-	"github.com/netlify/gocommerce/models"
+	gcontext "gocommerce/context"
+	"gocommerce/models"
 )
 
 const maxIPsPerDay = 50

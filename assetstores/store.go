@@ -3,7 +3,7 @@ package assetstores
 import (
 	"fmt"
 
-	"github.com/netlify/gocommerce/conf"
+	"gocommerce/conf"
 )
 
 // Store is the interface wrapping an asset store that can sign download URLs.

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/models"
 	"github.com/stretchr/testify/assert"
 )
 

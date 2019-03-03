@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/netlify/gocommerce/calculator"
-	"github.com/netlify/gocommerce/claims"
+	"gocommerce/calculator"
+	"gocommerce/claims"
 	"github.com/pborman/uuid"
 )
 

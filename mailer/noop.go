@@ -1,6 +1,6 @@
 package mailer
 
-import "github.com/netlify/gocommerce/models"
+import "gocommerce/models"
 
 type noopMailer struct{}
 

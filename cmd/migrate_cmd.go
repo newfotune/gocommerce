@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/netlify/gocommerce/conf"
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/conf"
+	"gocommerce/models"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

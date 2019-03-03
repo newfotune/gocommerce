@@ -4,7 +4,7 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/netlify/gocommerce/claims"
+	"gocommerce/claims"
 	"github.com/sirupsen/logrus"
 )
 

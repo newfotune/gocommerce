@@ -12,9 +12,10 @@ import (
 	"github.com/rs/cors"
 	"github.com/sirupsen/logrus"
 
+	"gocommerce/conf"
+	gcontext "gocommerce/context"
+
 	"github.com/go-chi/chi"
-	"github.com/netlify/gocommerce/conf"
-	gcontext "github.com/netlify/gocommerce/context"
 	"github.com/netlify/netlify-commons/graceful"
 )
 

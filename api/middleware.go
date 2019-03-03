@@ -8,11 +8,11 @@ import (
 	"net/http"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/netlify/gocommerce/assetstores"
-	"github.com/netlify/gocommerce/conf"
-	gcontext "github.com/netlify/gocommerce/context"
-	"github.com/netlify/gocommerce/mailer"
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/assetstores"
+	"gocommerce/conf"
+	gcontext "gocommerce/context"
+	"gocommerce/mailer"
+	"gocommerce/models"
 	"github.com/pkg/errors"
 )
 

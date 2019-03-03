@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/netlify/gocommerce/calculator"
+	"gocommerce/calculator"
 	"github.com/pborman/uuid"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

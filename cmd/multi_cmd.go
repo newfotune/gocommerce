@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/netlify/gocommerce/api"
-	"github.com/netlify/gocommerce/conf"
-	"github.com/netlify/gocommerce/models"
+	"gocommerce/api"
+	"gocommerce/conf"
+	"gocommerce/models"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )
